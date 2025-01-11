@@ -10,8 +10,7 @@ import { FaPinterest } from "react-icons/fa";
 const Footer = () => {
   return (
    
-        <div className=' w-[1440px] h-[380px] py-10 px-20  text-white bg-[#2a254b]
-        '>
+        <div className=' w-[1440px] h-[380px] py-10 px-20  text-white  bg-[#2a254b]'>
             <div className='mt-[5px] mb-[20px] grid grid-cols-1 md:grid-cols-4 gap-2'>
 
 
@@ -54,7 +53,8 @@ const Footer = () => {
                 <h3>
                 Join our mailing list
                 </h3>
-                <br/>
+               
+               
                 <div className='h-[40px] w-[100%] flex '>
                 <label>
                     <input type="text" name="" placeholder='your@email.com' className='bg-[#4A4666] pt-3 pb-3 pl-6 pr-0 w-[220px] text-[#FFFF]'>
@@ -63,35 +63,36 @@ const Footer = () => {
                 
                 </div>
             </div> 
-               
+               <div className='w-[1277px] mx-[8px] my-[20px]'>
+                <hr/>
+                </div>  
             <div >
-                
-                <p className='pt-20'>Copyright 2022 Avion LTD</p> 
-                <div className='m-[66px] flex items-center justify-end'>
+            
+                <div className=' w-[264px] space-x-8 pt-1 h-[24px] mx-[609px] my-[60px] flex '>
+                    <div className='w-[24px] h-[24px]'>
                     <FaLinkedin className='w-[18px] h-[18px]' />
+                    </div>
+                    <div className='w-[24px] h-[24px]'>
                     <FaFacebookSquare className='w-[18px] h-[18px]' />
+                    </div>
+                    <div className='w-[24px] h-[24px]'>
                     <FaInstagram  className='w-[18px] h-[18px]'/>
+                    </div>
+                    <div className='w-[24px] h-[24px]'>
                     <FaSkype  className='w-[19px] h-[19px]' />
+                    </div>
+                    <div className='w-[24px] h-[24px]'>
                     <FaTwitter  className='w-[17px] h-[13px]'/>
+                    </div>
+                    <div className='w-[24px] h-[24px]'>
                     <FaPinterest  className='w-21px] h-[21px]'/>
+                    </div>
                
                
                 </div>
             </div>
-            
-               
-          <div >
-   <hr /> 
-    </div>      
 
-          
-   
     </div>
-         
-
-   
-
-
 
         </div>
         

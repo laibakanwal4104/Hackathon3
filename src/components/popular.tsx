@@ -1,7 +1,11 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 const Popular = () => {
+  const router = useRouter();
   return (
+   
     <div className=' w-[1440px] h-[744px]'>
 
        
@@ -38,7 +42,7 @@ const Popular = () => {
   </div> 
   </div>
         <div className='mx-[635px] mt-[20px] w-[170px] h-[56px]  bg-[#F9F9F9]'>
-  <button className=' mx-[32px] my-[16px] w-[106px] h-[24px]'>View collection</button>
+  <button className=' mx-[32px] my-[16px] w-[110px] h-[24px]' onClick={()=>router.push("/products")}>View collection</button>
 </div>
 
     </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Features2 = () => {
   return (
-    <div className='  w-[1440px]  flex h-[603px]'>
+    <div className='  w-[1440px] flex h-[603px]'>
     <div className='w-[720px]  my-[72px] mx-[84px] h-[603px]'>
          <div className='   w-[536px] h-[225px]'>
             <h1 className=' text-[#494565] font-mono  w-[514px] h-[68px]'>From a studio in London to a global brand with

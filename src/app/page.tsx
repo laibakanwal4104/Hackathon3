@@ -1,24 +1,25 @@
-import Navbar from "./components/Navbar";
 
-import Ceramics from "./components/ceramics";
-import Features from "./components/features";
-import Features2 from "./components/features2";
-import Hero from "./components/hero"
-import Popular from "./components/popular";
-import SignUp from "./components/signUp";
-import Footer from "./components/Footer";
 
-export default function Home(){
+import Ceramics from "@/components/ceremics";
+import Features from "@/components/features";
+import Features2 from "@/components/features2";
+import Footer from "@/components/footer";
+import Hero from "@/components/hero";
+import Navbar from "@/components/navbar";
+import Popular from "@/components/popular";
+import SignUp from "@/components/signUp";
+
+export default function navbar(){
   return(
     <div className="w-[1440px] h-[4160px]">
-     <Navbar />
+    <Navbar/>
      <Hero/>
-     <Features/>
-     <Ceramics/>
+   <Features/>
+   <Ceramics/> 
     <Popular/>
-   <SignUp/>
-   <Features2/>
-   <Footer/>
+    <SignUp/>
+    <Features2/>
+    <Footer/> 
     </div>
-  );
+  )
 }
